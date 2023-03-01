@@ -1,0 +1,904 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  
+  .screen-container {
+    width: 1440px;
+    height: 1143px;
+    background-color:#EFF1F4;;
+  }
+  
+  .left-container {
+    width: 50%;
+    float: left;
+    height: 1176px;
+  }
+  
+  .right-container {
+    width: 50%;
+    float: right;
+    height: 1176px;
+  }
+  
+  .contact-us-container {
+    margin-top: 80px;
+  }
+  
+  .title {
+    color: #000000;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    line-height: 48px;
+    text-align: left;
+    width: 213px;
+    height: 55px;
+    position: relative;
+    left: 120px;
+  }
+  
+  .description {
+    color: #000000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.22px;
+    line-height: 27px;
+    width: 476px;
+    height: 56px;
+    text-align: left;
+    position: relative;
+    left: 120px;
+    top: 6px;
+  }
+  
+  .form-container {
+    font-family: Manrope;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .my-form {
+    position: relative;
+    top: 20px;
+  }
+  
+  
+  .form-group label {
+    width: 90px;
+    height: 19px;
+    color: #000000;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: left;
+  }
+  
+  #fullNameDiv , #emailDiv{
+    width: 476px;
+    height: 40px;
+    margin-top: 23px;
+    position: relative;
+    left: 120px;
+  }
+  #emailDiv{
+    position: relative;
+    top:8px;
+  }
+  
+  #fullNameLabel {
+    width: 95px;
+    height: 19px;
+    position: relative;
+  }
+  
+  #fullNameInput, #emailInput, #addressInput {
+    width: 357px;
+    height: 40px;
+    border-color: #A0A9BA;
+    border-radius: 5px;
+    margin-left: 23px;
+  }
+  
+  #emailLabel {
+     width: 68px;
+  }
+  
+  #emailInput {
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  
+  input::placeholder {
+    color: #A0A9BA;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 16px;
+  
+  }
+  
+  textarea::placeholder {
+    color: #A0A9BA;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.23px;
+    line-height: 24px;
+    width: 444px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top:10px;
+  }
+  
+  
+  .divider {
+    background-color: #D8D8D8;
+    width: 476px;
+    height: 2px;
+    position: relative;
+    left: 120px;
+    top:49px;
+  }
+  
+  #form-group-city-pcode {
+      position: relative;
+      top: 75px;
+  }
+
+  #form-group-city{
+    float: left;
+  }
+  
+  #form-group-pcode{
+    width: 50%;
+    float: right;
+  }
+  
+  #cityLabel,   #pcodeLabel{
+    display: inline-block;
+    height: 19px;
+    font-size: 14px;
+    position: relative;
+    left: 120px;
+  }
+  
+  #pcodeLabel{
+    position: relative;
+    left: 65px;
+    }
+  
+  .smallInput {
+    border-color: #A0A9BA;
+    border-radius: 5px;
+    width: 172px;
+    height: 40px;
+   
+  }
+
+ #city {
+    position: relative;
+    left:92px;
+    top: 35px;
+  }
+    
+  #postalCode {
+    position: relative;
+    left: -17px;
+    top: 35px;
+  }
+
+  #form-group-address{
+    display: inline-block;
+    position:relative;
+    left: 120px;
+    top: 135px;
+  }
+    
+  #addressLabel {
+    display: inline-block;
+    width: 54px;
+    height: 19px;
+  }
+  
+  #addressInput {
+    width: 288px;
+    position: relative;
+    left: -23px;
+  }
+
+  .form-group-textarea {
+    margin-top: 172px;
+    margin-left: 120px;
+    margin-right: 125px;
+  }
+  
+  #optionalDiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  #messageLabel {
+    color: #000000;
+    font-family: Manrope;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: left;
+    font-weight: 600;
+    width: 91px;
+    height: 19px;
+    flex:1
+  }
+  
+  #optional{
+   color: #9784FF;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.17px;
+    line-height: 17px;
+    text-align: right;  
+    width: 55px;
+    height: 19px;
+    flex:3;
+  }
+  
+  textarea {
+    max-width: 476px;
+    height: 168px;
+    font-family: Manrope;
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: #A0A9BA;
+  }
+  
+  #message {
+    width: 1410px;
+    border-color: #A0A9BA;
+  }
+  
+  #textareaDiv {
+    display: block;
+    margin-top: 5px;
+  }
+
+  #message-us{
+    width: 476px;
+    height: 168px;
+  }
+
+
+  .form-check {
+    position : relative;
+    left:120px;
+    top:26px; 
+  
+  }
+  
+  #agreeTerms {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #checkLabel{ 
+    display: inline-block;
+    width: 221px ;
+    height: 24px ;
+    color: #555555;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    top:-5px;
+    left: 15px;
+  }
+  
+  .submit { 
+    width: 169px;
+    height: 48px;
+    background-color: #EF7878;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 68px;
+    position: relative;
+    left: 120px;
+  }
+
+   
+
+  
+
+  .image-container {
+    background-size: 100%;
+    width: 676px;
+    height: 986px;
+    position: relative;
+    top: 100px;
+
+  }
+  
+  .map-layer{
+    width: 422px;
+    height: 430px;
+    position: relative;
+    top: 50px;
+    left: 177px;
+  }
+
+  .address-container {
+    float: right;
+    position: relative;
+    top: -400px;
+    right: 120px;
+  }
+
+  
+  .address-container h2 {
+    color: #000000;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.3px;
+    line-height: 27px;
+    width: 476px;
+    text-align: right;
+    position: relative;
+    top: 40px;
+  }
+  
+  .addressDiv {
+    color: #000000;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.22px;
+    line-height: 27px;
+    width: 476px;
+    text-align: right;
+    height:159px;
+    position: relative;
+    top:65px;
+  }
+  
+  #info {
+    position: relative;
+    top: 15px;
+  }
+  
+    
+  @media (max-width: 1360px) {
+    .screen-container {
+      width: 100%;
+      height: 1650px;
+      margin-top: -13px;
+    }
+
+    .map-layer {
+      position: relative;
+      left:50px;
+    }
+
+    .address-container {
+      float: right;
+      position: relative;
+      top: -400px;
+      right: 177px;
+    }
+  }
+
+  
+  @media (max-width: 1150px) {
+    .screen-container {
+      width: 100%;
+      height: 1650px;
+      margin-top: -13px;
+    }
+  
+    .left-container,
+    .right-container {
+      width: 100%;
+      float: none;
+      height: auto;
+    }
+
+    .contact-us-container{
+      margin-top: 40px;
+    }
+
+    #pcodeLabel {
+      position: relative;
+      left: -135px;
+    }
+
+    #postalCode {
+      position: relative;
+      left: -220px;
+    }
+
+    #form-group-address{
+      position: relative;
+      left: -80px;
+    }
+
+    #form-group-address{
+      position: relative;
+      top:150px;
+    }
+
+    #optionalDiv{
+      margin-right: 420px;
+    }
+
+    image-container {
+      height: 700px;
+    }
+
+    .map-layer {
+      position: relative;
+      left: 150px;
+    }
+
+    .address-container {
+      position: relative;
+      left: -500px;
+    }
+  }
+
+  
+  @media (max-width: 820px) {
+    .screen-container {
+      width: 100%;
+      height: 1650px;
+      margin-top: -13px;
+    }
+  
+    .left-container,
+    .right-container {
+      width: 100%;
+      float: none;
+      height: auto;
+    }
+    .contact-us-container{
+      margin-top: 0px;
+      padding-top: 50px;
+    }
+  
+    .form-group label {
+      width: 80px;
+    }
+  
+    .form-control {
+      width: 280px;
+    }
+  
+
+    #pcodeLabel {
+      margin-left: -40px;
+    }
+
+    #optional {
+      margin-right: 80px;
+    }
+
+   
+    .image-container {
+      width: 80%;
+      height: 350px;
+      position: static;
+    }
+  
+    .map-layer {
+      width:70%;
+      height: 300px;
+      position: static;
+      margin-left: 147px;
+      margin-right: 30%;
+    }
+  
+    .address-container {
+      width: 400px;
+      position: static;
+      margin-left: 30%;
+      margin-right: 30%;
+      
+    }
+  
+    .address-container h2 {
+      text-align: center;
+      position: relative;
+      top: 20px;
+     
+    }
+  
+    .addressDiv {
+      text-align: center;
+      position: relative;
+      top: 30px;
+    }
+  
+    #info {
+      margin-top: 10px;
+    }
+  
+    #fullNameInput {
+      height: 40px;
+    }
+  
+    #emailInput {
+      position: relative;
+    }
+  
+    .submit {
+      width: 25%;
+      position: static;
+      margin-left: 125px;
+      margin-bottom: 50px;
+    }
+  
+    textarea {
+      width: auto;
+    }
+
+  
+  }
+  
+  
+  
+   @media (max-width: 620px ) {
+    .screen-container {
+      width: 100%;
+      height: 1600px;
+      background-color:#EFF1F4;;
+    }
+  
+    .left-container,
+    .right-container {
+      width: 100%;
+      float: none;
+      height: auto;
+    }
+  
+    .contact-us-container {
+     padding-top: 35px;
+    }
+  
+    .title {
+      font-size: 28px;
+      line-height: 36px;
+      width: auto;
+      height: auto;
+      text-align: center;
+      margin-bottom: 16px;
+      position: static;
+    }
+  
+    .description {
+      font-size: 16px;
+      line-height: 24px;
+      width: 80%;
+      text-align: center;
+      margin: 0 auto 32px auto;
+      position: static;
+    }
+  
+    .form-group label {
+      width: 80px;
+      position: relative;
+    }
+  
+    #fullNameInput {
+      width: 250px;
+      position: relative;
+  
+    }
+    
+
+    #emailLabel {
+      position: static;
+    }
+  
+    #emailInput {
+      width: 250px;
+      position: static;
+    }
+    
+    .divider {
+      width: 100%;
+      margin-top: 50px;
+      position: static;
+      margin-bottom: -50px;
+    }
+  
+    #city-pc {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+  
+     #form-group-city, #form-group-pc, #form-group-address {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    } 
+    
+    #form-group-pc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #pcLabel, #postCode {
+      display: block;
+      width: 100%;
+    }
+    
+    #postCode{
+      width: 210px;
+      position: static;
+      margin-left: 210px;
+      margin-top: 5px;
+    }
+  
+    #pcLabel {
+      width: 120px;
+      position: static;
+      margin-top: 50px;
+      margin-left: 120px;
+    }
+  
+    #city-pc {
+      margin-top: -10px ;
+    }
+  
+    .smallInput {
+      width: 175px;
+      border-radius: 5px;
+    }
+  
+    #form-group-address {
+      margin-top: 50px;
+    }
+  
+    #address{
+      width: 210px;
+      margin-bottom: 5px;
+    }
+
+    #addressInput {
+      margin-left: 48px;
+    }
+  
+   .form-check {
+      position: static;
+      margin-left: 120px;
+      margin-top:35px;
+    } 
+  
+    #agreeTerms {
+      margin-right: 8px;
+    }
+  
+    #checkLabel {
+      display: inline-block;
+      width: auto;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  
+    .submit {
+      position: static;
+      margin-left: 30%;
+      margin-top: 5%;
+    }
+  
+  
+    .image-container {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+  
+    .map-layer {
+      width: 50%;
+      height: auto;
+       width: 50%;
+      height: auto;
+      position: static;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  
+    .address-container {
+      width: 180px;
+      height: auto;
+      margin: 0px 0px;
+      position: static;
+      margin-right: 55%;
+    }
+  
+    .addressDiv p {
+      font-size: 14px;
+    }
+  
+    #textareaDiv {
+      display: block;
+    }
+
+    #optionalDiv {
+      width: 450px;
+    }
+    
+    #optional {
+      position: relative;
+    }
+  
+    #message {
+      width: 300px;
+      margin-left: 50px;
+      margin-right: 90px;
+    }
+    
+    #messagelabel {
+      width: 120px;
+    }
+    #message-us {
+      width : 370px;
+      margin-top: 20px;;
+    }
+  } 
+
+
+  @media (max-width: 555px ) {
+    .screen-container {
+      width: 100%;
+      height: 1600px;
+      background-color:#EFF1F4;;
+    }
+
+    #fullNameDiv, #emailDiv {
+      position: relative;
+      left:60px;
+    }
+
+    #form-group-city {
+      position: relative;
+      left: -60px;
+    }
+
+    #form-group-address {
+      position: relative;
+      left: 70px;
+    }
+
+    .form-group-textarea {
+      position: relative;
+      left:-60px;
+    }
+
+    .map-layer {
+      width: 320px;
+      position: relative;
+      left: -60px;
+      top: -10px;
+    }
+
+    h2,  .addressDiv{
+      position: relative;
+      left: -50px;
+    }
+  }
+  
+  @media (max-width: 450px ) {
+    .screen-container {
+      width: 100%;
+      height: 1700px;
+      background-color:#EFF1F4;;
+    }
+
+    #fullNameInput, #emailInput, #addressInput {
+      width: 200px;
+    }
+
+    #addressInput {
+      width: 260px;
+    }
+    
+    .smallInput {
+      width: 260px;
+    }
+
+    #city{
+      width: 250px;
+    }
+
+
+    #addressLabel {
+      position: relative;
+      top:40px;
+      left: 50px;
+    }
+
+    #addressInput {
+      position: relative;
+      top: -20px;
+      left:1px;
+    }
+
+    #message-us {
+      width: 300px;
+    }
+
+    #optional {
+      position: relative;
+      right: 70px;
+    }
+
+    #form-group-pcode{
+      position: static;
+      margin-top: 35px;
+      margin-right: 132px
+    }
+
+    
+    #pcodeLabel {
+      position: relative;
+      left: 45px;
+      top:5px;
+
+    }
+
+    #postalCode {
+      position: relative;
+      top:5px;
+      left: 0px;
+    }
+
+    .form-check {
+      position: static;
+      margin-left: 60px;
+    }
+
+    .map-layer{
+      position: static;
+      margin-left: 40px;;
+    }
+
+    #form-group-address {
+      display: block;
+      position: relative;
+      left:10px;
+
+    }
+
+
+  }
+
+
+
+
+
